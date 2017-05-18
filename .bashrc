@@ -19,6 +19,8 @@ alias l='ls $LS_OPTIONS -lA'
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
+alias tmux="tmux -2"
+
 
 CLR="\e[0m"
 BLD="\e[1m"

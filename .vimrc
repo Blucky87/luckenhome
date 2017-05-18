@@ -2,7 +2,7 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 set shell=/bin/bash
 set t_Co=256
-
+set term=screen-256color
 set backspace=2
 
 
