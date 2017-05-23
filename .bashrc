@@ -22,6 +22,15 @@ alias mv='mv -i'
 alias tmux="tmux -2"
 
 
+cl(){
+  cd "$1";
+  ls -la;
+}
+
+bak(){
+  mv "$1" "$1.bak"
+}
+
 CLR="\e[0m"
 BLD="\e[1m"
 L2_A_BG="\e[102m"

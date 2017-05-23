@@ -27,9 +27,16 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'christoomey/vim-tmux-navigator'
-Plugin 'davidhalter/jedi-vim.git'
+"Plugin 'davidhalter/jedi-vim.git'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
+"Plugin 'Quramy/tsuquyomi'
+Plugin 'leafgarland/typescript-vim'
+
+Plugin 'Valloric/YouCompleteMe'
+
 "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -87,7 +94,7 @@ au BufNewFile,BufRead *.py
     \ set autoindent     |
     \ set fileformat=unix 
 
-au BufNewFile,BufRead *.js, *.html, *.css
+au BufNewFile,BufRead *.js,*.json,*.html,*.css
     \ set tabstop=2      |
     \ set softtabstop=2  |
     \ set shiftwidth=2   
